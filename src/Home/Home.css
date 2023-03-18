@@ -1,0 +1,28 @@
+.banner{
+
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/Pale%20Yellow%20Comics%20We%20Are%20Open%20Metal%20Sign.gif?alt=media&token=e44a22d5-6baf-4b95-94f7-c76c5e54d455");
+  background-position: top center;
+  background-size: cover; 
+  padding: 25%;
+  position: relative;
+  z-index: 1;
+  color: red;
+  background-attachment: fixed;
+
+}
+
+.banner::after{
+
+  content:'';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+
+}
+
+
+
