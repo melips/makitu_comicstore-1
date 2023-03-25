@@ -1,5 +1,4 @@
 import "./Home.css"; //comillas simples o dobles, ambas válidas
-import {Menu} from '../Menu/Menu'
 import { AcercaDe } from "../AcercaDe/AcercaDe";
 import { Servicios } from "../Servicios/Servicios";
 
@@ -7,12 +6,7 @@ export function Home() {
   return (
 
     <>
-      <header>
-        
-        <Menu>
-        </Menu>
-
-      </header>
+    
 
       <section>
 
