@@ -14,7 +14,7 @@ export function Administrador() {
 
                     <div class="col-6">
 
-                        <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/producto.jpg?alt=media&token=dbc16f65-da01-4bfe-b537-3c0ab969083e" alt="foto" class="img-fluid" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/comic.jpg?alt=media&token=bd249bdd-e2d6-44db-bac0-6ee7d819cfa5" alt="foto" class="img-fluid" />
 
                     </div>
 

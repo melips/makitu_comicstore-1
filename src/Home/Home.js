@@ -12,7 +12,7 @@ export function Home() {
 
         <div class="banner">
 
-            <h1>¡Bienvenido!</h1>
+            <h1>Bienvenido a Makitu...</h1>
 
         </div>
 
