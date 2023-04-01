@@ -9,7 +9,9 @@ export function Menu() {
       <nav class="navbar navbar-expand-lg navbar-dark menu fixed-top">
 
         <div class="container-fluid">
-          <Link class="navbar-brand" to="/">Makitu</Link>
+          <Link class="navbar-brand" to="/">
+             <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/1.png?alt=media&token=7e3c7a80-9410-4523-9619-f919c32405f9" class="icono"></img>
+          </Link>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

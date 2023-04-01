@@ -1,4 +1,16 @@
+import './Tienda.css'
+
 export function Tienda(){
+
+    function cambiarfoto(evento){
+        evento.preventDefault()
+        evento.target.classList.remove("sombra")
+    }
+
+    function cambiarfoto2(evento){
+        evento.preventDefault()
+        evento.target.classList.add("sombra")
+    }
 
     let productos = [
         {
@@ -83,9 +95,13 @@ export function Tienda(){
                 {
                     productos.map(function(producto){
                         return(
-                            <div class ="col">
+                            <div class ="col zoom">
                                 <div class = "card shadow h-100">
-                                    <img src={producto.foto} alt="" class ="img-fluid"/>
+                                    <img 
+                                        src={producto.foto} alt="" class ="img-fluid sombra" 
+                                        onMouseOver={cambiarfoto} 
+                                        onMouseLeave={cambiarfoto2}
+                                    />
                                     <h4 class="text-center fw-bold">{producto.nombre}</h4>
                                     <h5 class = "text-success">${producto.precio} COP</h5>
                                     <p class = "text-justify">{producto.descripcion}</p>
