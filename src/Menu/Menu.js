@@ -10,7 +10,7 @@ export function Menu() {
 
         <div class="container-fluid">
           <Link class="navbar-brand" to="/">
-             <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/1.png?alt=media&token=7e3c7a80-9410-4523-9619-f919c32405f9" class="icono"></img>
+             <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/Pale_Yellow_Comics_We_Are_Open_Metal_Sign__2_-removebg-preview.png?alt=media&token=156ba822-5f60-4af8-9ac0-c35ee1adc4ac" class="icono"></img>
           </Link>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -11,14 +11,14 @@ export function AcercaDe(){
 
             <div class="col-12 col-md-4">
 
-                <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/Pale%20Yellow%20Comics%20We%20Are%20Open%20Metal%20Sign%20(2).gif?alt=media&token=cbd444c5-7835-43ea-8e10-12af6aae18f6" alt="foto" class="img-fluid"/> 
+                <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/Pale%20Yellow%20Comics%20We%20Are%20Open%20Metal%20Sign%20(1).png?alt=media&token=2090972d-aabf-4cca-be4e-d3b7d0e23e15" alt="foto" class="img-fluid"/> 
 
             </div>
 
             <div class="col-12 col-md-4 text-center align-self-center">
               
               <h2>Makitu Comic Store</h2>
-              <p>Tu tienda online de Comics, Manga y artículos coleccionables </p>
+              <p>Tu tienda online de Comics, Manga y accesorios coleccionables </p>
 
             </div>
 
