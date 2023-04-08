@@ -3,10 +3,9 @@
   background-image: url("https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/portada.jpg?alt=media&token=56b06bf1-6ff7-46ce-ae9e-9ac9c99e52fc");
   background-position: top center;
   background-size: cover; 
-  padding: 25%;
+  padding: 22% 20% 20% 5%;
   position: relative;
   z-index: 1;
-  color: red;
   background-attachment: fixed;
 
 }
@@ -17,12 +16,35 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   top: 0;
   left: 0;
   opacity: 0.4;
+  z-index: -1;
 
 }
 
+.texto1{
 
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 65px;
+  color: rgb(255, 12, 12); 
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+
+}
+
+.texto2{
+
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 50px;
+  color: rgb(255, 255, 255); 
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+
+}
+
+.background{
+
+  background-color: black;
+
+}
 

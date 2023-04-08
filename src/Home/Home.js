@@ -11,14 +11,18 @@ export function Home() {
       <section>
 
         <div class="banner">
+        
 
-            <h1>Bienvenido a Makitu...</h1>
+            <h1 class="texto1">Bienvenido a Makitu 
+             </h1>
+            <h2 class="texto2">Una explosión de diversión en cada página</h2>
+
 
         </div>
 
       </section>
 
-      <AcercaDe></AcercaDe>
+      <AcercaDe ></AcercaDe>
       <Servicios></Servicios>
     </>
 
