@@ -1,6 +1,98 @@
-.fondo{
+.fond.o{
 
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.628);
   color: white;
+  box-shadow: white;
+
+}
+
+.tituloS{
+
+  margin-left: 5px;
+    font-family: 'Delicious Handrawn', cursive ;
+    font-size: 40px;
+    color: rgba(254,237,0,255); 
+    text-shadow: rgb(248, 237, 233) 0.0em 0.0em 0.3em;
+
+}
+
+.text{
+
+  margin-left: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.866); 
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+  text-justify: inter-word;
+  text-align: justify;
+
+}
+
+.focus{
+
+  border: transparent;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+
+}
+
+.focus:hover{
+
+ transform: scale(1.05);
+
+}
+
+.container2{
+
+  position: relative;
+  overflow: hidden;
+
+}
+
+.container2:hover img{
+
+  transform: scale(1.09);
+
+}
+
+.container2 img {
+
+  width: 100%;
+  min-width: fit-content;
+  transition: all .5s;
+  cursor: pointer;
+  height: fit-content;
+
+}
+
+.content{
+
+  background-color: rgba(0,0,0, .7);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  text-align: justify;
+  height: fit-content;
+  transition: all .5s;
+
+}
+.content h2{
+
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 1px solid rgb(220, 114, 114);
+  padding: 20px 10px;
+
+}
+.content h5{
+
+  padding: 20px 20px 15px 20px;
+  border-bottom: 1px solid rgb(220, 114, 114);
+
+}
+
+.container2:hover .content{
+
+  top: 0;
 
 }

@@ -10,7 +10,7 @@ export function AcercaDe(){
 
         <div class="row justify-content-center">
 
-            <div class="col-12 col-md-4 ">
+            <div class="col-12 col-md-4 telesh ">
 
                 <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/logoSombra.png?alt=media&token=8a0d9fc1-6310-49ab-8650-f3168196696b" alt="Logo" class="img-fluid imgSombra"/> 
 
@@ -24,7 +24,7 @@ export function AcercaDe(){
 
               <p class="subTitulo">
                 
-                Tu tienda online de Comics, Manga y accesorios coleccionables
+                Tu tienda online de Comics, manga y articulos coleccionables.
 
               </p>
 
@@ -40,6 +40,9 @@ export function AcercaDe(){
             </div>
 
         </div>
+
+        <br></br>
+        <br></br>
 
       </div>
 

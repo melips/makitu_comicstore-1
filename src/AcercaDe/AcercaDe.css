@@ -38,5 +38,19 @@
     font-size: 19px;
     color: rgba(255, 255, 255, 0.866); 
     text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+    text-justify: inter-word;
+
+}
+
+.telesh{
+
+    border: transparent;
+    transition: all ease-out 0.2s;
+
+}
+
+.telesh:hover{
+
+    transform: scale(1.05);
 
 }
