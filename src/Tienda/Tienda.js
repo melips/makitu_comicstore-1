@@ -1,4 +1,5 @@
 import './Tienda.css'
+import { useNavigate } from 'react-router-dom'
 
 export function Tienda(){
 
@@ -11,6 +12,16 @@ export function Tienda(){
         evento.preventDefault()
         evento.target.classList.add("sombra")
     }
+
+    let navegador=useNavigate()
+    function pasarInformacion(producto){
+     navegador('/compras',{
+
+        state:{producto}
+
+     })
+    }
+    
 
     let productos = [
         {
@@ -95,7 +106,7 @@ export function Tienda(){
                 {
                     productos.map(function(producto){
                         return(
-                            <div class ="col zoom">
+                            <div class ="col zoom" onClick={function(){pasarInformacion(producto)}}>
                                 <div class = "card shadow h-100">
                                     <img 
                                         src={producto.foto} alt="" class ="img-fluid sombra" 

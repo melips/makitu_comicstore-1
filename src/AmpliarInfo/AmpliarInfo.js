@@ -1,6 +1,11 @@
 import './AmpliarInfo.css'
+import { useLocation } from 'react-router-dom'
 
 export function AmpliarInfo(){
+
+    let location=useLocation()
+    let producto=location.state.producto
+    console.log(producto)
 
     return(
         <>
@@ -8,13 +13,13 @@ export function AmpliarInfo(){
             <div class = "container my-5">
                 <div class = "row">
                     <div class = "col-12 col-md-7">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/DEATHSTROKE%20REBIRTH%20N%C3%9AMERO%201.jpg?alt=media&token=7dc85074-8f8d-4c82-b512-bae8415b1c30" class="img-fluid w-100" 
+                        <img src={producto.foto} class="img-fluid w-100" 
                         alt = "foto"
                         />
                     </div>
 
                     <div class = "col-12 col-md-5 border p-3 rounded shadow">
-                        <h2 class = "fw-bold">DEATHSTROKE</h2>
+                        <h2 class = "fw-bold">{producto.nombre}</h2>
                         <i class="bi bi-star-fill text-warning fs-1 ms-1"></i>
                         <i class="bi bi-star-fill text-warning fs-1 ms-1"></i>
                         <i class="bi bi-star-fill text-warning fs-1 ms-1"></i>
@@ -28,7 +33,7 @@ export function AmpliarInfo(){
                         <br></br>
                         <br></br>
 
-                        <h3>$32500</h3>
+                        <h3>{producto.precio}</h3>
                         <span class = "badge text-bg-primary mt-3"> Oferta </span>
 
                         <br></br>
