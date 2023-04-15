@@ -1,4 +1,6 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { registrarProductoEnBd } from "../services/agregarProducto"
+
 export function Administrador() {
 
     const [nombre, setNombre]=useState("")
@@ -21,12 +23,24 @@ export function Administrador() {
         evento.preventDefault()
         let datosProducto={
 
-            "nombre": nombre
+            "nombre": nombre,
+            "cantidad": cantidad,
+            "foto":foto,
+            "precioUnitario":precio,
 
         }
+
         console.log(datosProducto)
+        registrarProductoEnBd(datosProducto)
+        .then(function(respuesta){
+
+            console.log(respuesta)
+
+        })
 
     }
+
+
 
     return (
 

@@ -1,7 +1,13 @@
 import './Tienda.css'
 import { useNavigate } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { consultarProductos } from '../services/buscarProductos'
 
 export function Tienda(){
+
+    const[productostienda, setProductosTienda]=useState("")
+    const[estadocarga, setEstadoCarga]=useState(true)
+
 
     function cambiarfoto(evento){
         evento.preventDefault()
@@ -20,10 +26,70 @@ export function Tienda(){
         state:{producto}
 
      })
+
     }
     
+    useEffect(function(){
 
-    let productos = [
+        consultarProductos()
+        .then(function(respuesta){
+
+            setEstadoCarga(false)
+            setProductosTienda(respuesta)
+
+        })
+
+    },[])
+
+    if(estadocarga == true){
+
+        return(
+
+            <>
+            
+                <h1>Estamos cargando... :D</h1>
+
+            </>
+
+        )
+
+    }else{
+
+        return(
+
+            <>
+                <br></br>
+                <br></br>
+                <br></br>
+                <div class = "row row-cols-1 row-cols-md-5 g-3 my-5">
+                    {
+                        productostienda.map(function(producto){
+                            return(
+                                <div class ="col zoom" onClick={function(){pasarInformacion(producto)}}>
+                                    <div class = "card shadow h-100">
+                                        <img 
+                                            src={producto.foto} alt="" class ="img-fluid sombra" 
+                                            onMouseOver={cambiarfoto} 
+                                            onMouseLeave={cambiarfoto2}
+                                        />
+                                        <h4 class="text-center fw-bold">{producto.nombre}</h4>
+                                        <h5 class = "text-success">${producto.precio} COP</h5>
+                                        <p class = "text-justify">{producto.descripcion}</p>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+    
+            </>
+            
+        )
+
+    }
+
+    //Esto lo comentamos porque ahora viene de la base de datos
+    /*let productos = [
         {
             nombre: "Spiderman Gameverse",
             precio: 82000,
@@ -93,36 +159,8 @@ export function Tienda(){
             descripcion: "Manga Sailor V número 1 de 2, publicado por la editorial Panini México en español, edición en pasta blanda, 320 páginas a blanco y negro.",
             foto: "https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/SAILOR%20V%20N%C3%9AMERO%201%20DE%202.webp?alt=media&token=850c7c11-3c7b-408f-9d59-19aab5410a11" 
         },
-    ]
+    ]*/
 
 
-
-    return(
-        <>
-            <br></br>
-            <br></br>
-            <br></br>
-            <div class = "row row-cols-1 row-cols-md-5 g-3 my-5">
-                {
-                    productos.map(function(producto){
-                        return(
-                            <div class ="col zoom" onClick={function(){pasarInformacion(producto)}}>
-                                <div class = "card shadow h-100">
-                                    <img 
-                                        src={producto.foto} alt="" class ="img-fluid sombra" 
-                                        onMouseOver={cambiarfoto} 
-                                        onMouseLeave={cambiarfoto2}
-                                    />
-                                    <h4 class="text-center fw-bold">{producto.nombre}</h4>
-                                    <h5 class = "text-success">${producto.precio} COP</h5>
-                                    <p class = "text-justify">{producto.descripcion}</p>
-                                </div>
-                            </div>
-                        )
-                    })
-                }
-            </div>
-
-        </>
-    )
+    
 }
