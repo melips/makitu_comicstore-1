@@ -56,7 +56,6 @@ export function Tienda(){
     }else{
 
         return(
-
             <>
                 <br></br>
                 <br></br>
@@ -83,7 +82,6 @@ export function Tienda(){
                 </div>
     
             </>
-            
         )
 
     }
@@ -160,6 +158,7 @@ export function Tienda(){
             foto: "https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/SAILOR%20V%20N%C3%9AMERO%201%20DE%202.webp?alt=media&token=850c7c11-3c7b-408f-9d59-19aab5410a11" 
         },
     ]*/
+
 
 
     
