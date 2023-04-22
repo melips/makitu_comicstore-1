@@ -13,7 +13,8 @@ export function Servicios() {
 
         <div class="col-12 col-md-3 fondo tituloS container2">
 
-          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/comicH.webp?alt=media&token=480be0ca-bf6c-4fb9-8ceb-213f46b61cf4" alt="foto" class="img-flui"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/ComicManga.png?alt=media&token=f6557d07-38a5-4f1b-b6f0-682e25e600ba" 
+          alt="foto" class="img-flui"></img>
 
           <div class="content">
 
@@ -29,7 +30,7 @@ export function Servicios() {
 
         <div class="col-12 col-md-3 fondo tituloS container2">
 
-          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/MangaH.jpg?alt=media&token=ef3170c4-841b-46e6-823a-96707b311e00" alt="foto" class="img-flui"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/comic%20menu%20(1).png?alt=media&token=34055279-bac4-40a5-a1e1-6e953a8bab66" alt="foto" class="img-flui"></img>
 
           <div class="content">
 

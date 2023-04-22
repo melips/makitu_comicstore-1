@@ -33,6 +33,10 @@ export function Menu() {
                 <Link class="nav-link" to="/productos">Productos</Link>
               </li>
 
+              <li class="nav-item">
+                <Link class="nav-link texto" to="/quienessomos">Quienes Somos</Link>
+              </li>
+
             </ul>
 
           </div>

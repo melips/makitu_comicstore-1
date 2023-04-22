@@ -4,6 +4,7 @@ import { Administrador } from "../Administrador/Administrador"
 import { Menu } from "../Menu/Menu"
 import { Tienda } from "../Tienda/Tienda"
 import {AmpliarInfo} from "../AmpliarInfo/AmpliarInfo"
+import { QuienesSomos } from "../QuienesSomos/QuienesSomos"
 
 export function Router() {
 
@@ -23,6 +24,8 @@ export function Router() {
         <Route path="/administrar" element={<Administrador />} />
         <Route path="/productos" element={<Tienda />} />
         <Route path="/compras" element={<AmpliarInfo />} />
+        <Route path="z" element={<QuienesSomos />} />
+
 
       </Routes>
 

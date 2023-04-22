@@ -2,6 +2,7 @@ import "./Home.css"; //comillas simples o dobles, ambas válidas
 import { AcercaDe } from "../AcercaDe/AcercaDe";
 import { Servicios } from "../Servicios/Servicios";
 import { Footer } from "../Footer/Footer";
+import { QuienesSomos } from "../QuienesSomos/QuienesSomos";
 
 export function Home() {
   return (
@@ -25,6 +26,7 @@ export function Home() {
 
       <AcercaDe ></AcercaDe>
       <Servicios></Servicios>
+      <QuienesSomos></QuienesSomos>
       <Footer></Footer>
       
     </>
