@@ -73,13 +73,13 @@ export function Administrador() {
 
                 <div class="row">
 
-                    <div class="col-6">
+                    <div class="col-5">
 
-                        <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/comic.jpg?alt=media&token=bd249bdd-e2d6-44db-bac0-6ee7d819cfa5" alt="foto" class="img-fluid" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/AgregarProducto.png?alt=media&token=fe462153-5ff4-452a-a82c-131d7e164e08" alt="foto" class="img-fluid" />
 
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-5">
 
                         <h2>Registro de mercancia</h2>
 

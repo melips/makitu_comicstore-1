@@ -26,7 +26,6 @@ export function Home() {
 
       <AcercaDe ></AcercaDe>
       <Servicios></Servicios>
-      <QuienesSomos></QuienesSomos>
       <Footer></Footer>
       
     </>

@@ -24,7 +24,7 @@ export function Router() {
         <Route path="/administrar" element={<Administrador />} />
         <Route path="/productos" element={<Tienda />} />
         <Route path="/compras" element={<AmpliarInfo />} />
-        <Route path="z" element={<QuienesSomos />} />
+        <Route path="/quienessomos" element={<QuienesSomos />} />
 
 
       </Routes>

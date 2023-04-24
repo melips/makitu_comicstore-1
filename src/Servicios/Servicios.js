@@ -13,7 +13,7 @@ export function Servicios() {
 
         <div class="col-12 col-md-3 fondo tituloS container2">
 
-          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/ComicManga.png?alt=media&token=f6557d07-38a5-4f1b-b6f0-682e25e600ba" 
+          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/Comic.png?alt=media&token=bf6ad899-0874-4d04-ac27-f3029960ea17" 
           alt="foto" class="img-flui"></img>
 
           <div class="content">
@@ -30,11 +30,11 @@ export function Servicios() {
 
         <div class="col-12 col-md-3 fondo tituloS container2">
 
-          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/comic%20menu%20(1).png?alt=media&token=34055279-bac4-40a5-a1e1-6e953a8bab66" alt="foto" class="img-flui"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/Anime.png?alt=media&token=cf96323a-9eab-4225-b185-f677c1295e4e" alt="foto" class="img-flui"></img>
 
           <div class="content">
-
-          <h2>Manga</h2>
+ 
+          <h2>Anime</h2>
 
           <h5 class="text">
           Si eres un fanático del manga, no puedes perderte la increíble selección de títulos que encontrarás en nuestra tienda de cómics. Tenemos los últimos lanzamientos de las series más populares como Naruto, One Piece y Attack on Titan, así como clásicos como Dragon Ball y Sailor Moon. Además, también ofrecemos una gran variedad de géneros, desde romance y drama hasta acción y aventura. 
@@ -47,7 +47,7 @@ export function Servicios() {
 
         <div class="col-12 col-md-3 fondo tituloS container2">
 
-          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/ArtCH.jpg?alt=media&token=ade42869-82f0-4b83-9cd9-d8701b4d822c" alt="foto" class="img-flui"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/Articulos.png?alt=media&token=4a4ae11f-0eb2-4252-b227-f840f4525cfe" alt="foto" class="img-flui"></img>
 
           <div class="content">
 
@@ -115,20 +115,20 @@ export function Servicios() {
 
         <div class="col-12 col-md-3 fondo tituloS container2">
 
-          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/comicH.webp?alt=media&token=480be0ca-bf6c-4fb9-8ceb-213f46b61cf4" alt="foto" class="img-flui"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/ComicParteBaja.png?alt=media&token=5340613c-9d21-4eba-9ba0-6a803fc31aff" alt="foto" class="img-flui"></img>
           
         </div>
 
         <div class="col-12 col-md-3 fondo tituloS container2">
 
-          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/MangaH.jpg?alt=media&token=ef3170c4-841b-46e6-823a-96707b311e00" alt="foto" class="img-flui"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/AnimeParteBaja.png?alt=media&token=14d5c3c3-ee32-4e0a-8f69-413bd9a45acf" alt="foto" class="img-flui"></img>
 
           
         </div>
 
         <div class="col-12 col-md-3 fondo tituloS container2">
 
-          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/ArtCH.jpg?alt=media&token=ade42869-82f0-4b83-9cd9-d8701b4d822c" alt="foto" class="img-flui"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/ArticuloParteBaja.png?alt=media&token=80c0b28b-c5f9-45fb-bf7a-71ca667cfeec" alt="foto" class="img-flui"></img>
 
           
         </div>
