@@ -25,6 +25,8 @@
   text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
   text-justify: inter-word;
   text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
 }
 
@@ -46,6 +48,8 @@
 
   position: relative;
   overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 10px;
 
 }
 
@@ -62,6 +66,7 @@
   transition: all .5s;
   cursor: pointer;
   height: fit-content;
+  border-radius: 10px;
 
 }
 
@@ -69,7 +74,7 @@
 
   background-color: rgba(0,0,0, .7);
   position: absolute;
-  top: -100%;
+  top: -110%;
   left: 0;
   text-align: justify;
   height: fit-content;
@@ -79,7 +84,7 @@
 .content h2{
 
   text-align: center;
-  font-size: 25px;
+  font-size: 45px;
   border-bottom: 1px solid rgb(220, 114, 114);
   padding: 20px 10px;
 
@@ -94,5 +99,22 @@
 .container2:hover .content{
 
   top: 0;
+
+}
+
+.icono2 {
+
+  width: 70%;
+  height: 80px;
+  margin-left: 10px;
+  
+
+}
+
+.icono3 {
+
+  width: 100%;
+  height: 100px;
+  margin-left: 10px;
 
 }
