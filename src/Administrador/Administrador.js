@@ -1,4 +1,5 @@
 import Swal from 'sweetalert2'
+import "./Administrador.css"
 import { useState, useEffect } from "react"
 import { registrarProductoEnBd } from "../services/agregarProducto"
 
@@ -69,23 +70,26 @@ export function Administrador() {
             <br></br>
 
 
-            <div class="container-fluid my-5">
+            <div class="container-fluid  my-5">
 
-                <div class="row">
+                <div class="row justify-content-center">
 
-                    <div class="col-5">
+                    <div class="col-5 align-self-center">
 
-                        <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/AgregarProducto.png?alt=media&token=fe462153-5ff4-452a-a82c-131d7e164e08" alt="foto" class="img-fluid" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-aff4a.appspot.com/o/AgregarProducto.png?alt=media&token=fe462153-5ff4-452a-a82c-131d7e164e08" alt="foto" class="img-fluid imgp" />
 
                     </div>
 
-                    <div class="col-5">
+                    <div class="col-5 ">
 
-                        <h2>Registro de mercancia</h2>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/WhatsApp_Image_2023-04-23_at_11.02.14_PM__1_-removebg-preview.png?alt=media&token=a2844539-22ad-4966-bbb1-e5bd3a435950" alt="foto" class="img-fluid icono2p "></img>
+
+                        <br></br>  
+                        <br></br>  
 
                         <form onSubmit={procesarFormulario}>
 
-                            <div class="row">
+                            <div class="row justify-content-center">
 
                                 <div class="col-4">
 
@@ -406,10 +410,14 @@ export function Administrador() {
                                 </div>
 
 
+                                <br></br>  
+                                <br></br> 
+                                <br></br>  
+
 
                             </div>
 
-                                    <button type="submit" class="btn btn-outline-success w-100">Enviar</button>
+                                    <button type="submit" class="btn btn-outline-danger w-100">Enviar</button>
 
                         </form>
 

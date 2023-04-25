@@ -54,7 +54,7 @@
     margin-left: 5px;
     font-family: 'Delicious Handrawn', cursive ;
     font-size: 60px;
-    color: rgba(254,237,0,255); 
+    color: rgba(254,237,0,255);
     text-shadow: rgb(248, 237, 233) 0.0em 0.0em 0.3em;
 
 }
@@ -64,8 +64,8 @@
     margin-left: 5px;
     font-family: 'Delicious Handrawn', cursive ;
     font-size: 28px;
-    color: rgba(254,237,0,255); 
-    text-shadow: rgb(248, 237, 233) 0.0em 0.0em 0.3em;
+    color: rgb(255, 12, 12); 
+    text-shadow: rgb(224, 137, 23) 0.0em 0.0em 0.3em;
 
 }
 
@@ -79,5 +79,29 @@
     text-justify: inter-word;
     padding-top: 20px;
     text-align: justify;
+
+}
+
+.imagenp{
+
+  width: 30%;
+  min-width: fit-content;
+  transition: all .5s;
+  cursor: pointer;
+  height: 30%;
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
+
+.imagenpv{
+
+  width: 30%;
+  min-width: fit-content;
+  transition: all .5s;
+  cursor: pointer;
+  height: 30%;
+  border-radius: 10px;
+  margin-top: 20px;
 
 }

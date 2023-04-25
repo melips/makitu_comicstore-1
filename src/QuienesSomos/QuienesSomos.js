@@ -1,4 +1,5 @@
 import "./QuienesSomos.css";
+import { Footer } from "../Footer/Footer";
 import { useLocation } from "react-router-dom";
 
 export function QuienesSomos() {
@@ -9,7 +10,7 @@ export function QuienesSomos() {
         <div  class="bannerq my-5">
 
 
-          <h1 class="textoq1 text-center">¿Qué hay detras de Makitu?</h1>
+          <h1 class="textoq1 text-center">¿Qué hay detrás de Makitu?</h1>
 
           <h2  class="textoq2 text-center">Te hablamos un poco de nosotros</h2>
 
@@ -77,9 +78,9 @@ export function QuienesSomos() {
             <div class="bannerq my-5">
 
 
-                <h1 class="textoq1 text-center">¿Quién esta detras de Makitu?</h1>
+                <h1 class="textoq1 text-center">¿Quién está detrás de Makitu?</h1>
 
-                <h2 class="textoq2 text-center">Conoce nuestro equipo de </h2>
+                <h2 class="textoq2 text-center">Conoce nuestro equipo de Desarrolladores</h2>
 
             </div>
 
@@ -93,31 +94,46 @@ export function QuienesSomos() {
 
             <div class="col-12 col-md-5 telesh ">
 
-             <h2 class="titulo">Makitu Comic Store</h2>
+             <h2 class="tituloq text-center">Leidy Vanesa Gonzales</h2>
 
-                <p class="subTitulo">
+                <p class="subTituloq text-center">
                 
-                Leidy Vanesa Gonzales
+                   Full Stack Developer
 
                 </p>
 
-                        <p class="text">
+                        <p class="text ">
 
                         Bienvenido a nuestra tienda de cómics, donde encontrarás una amplia variedad de colecciones para todas las edades. Nos dedicamos a fomentar la lectura y el tiempo de ocio a través del mundo de los cómics, donde la imaginación y la creatividad no tienen límites.
 
                         </p>
 
-                            <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/logoSombra.png?alt=media&token=8a0d9fc1-6310-49ab-8650-f3168196696b" alt="Logo" class="img-fluid imgSombra"/> 
+                            <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/WhatsApp%20Image%202023-04-22%20at%209.41.52%20PM.jpeg?alt=media&token=fa29373c-5120-4bc4-b8d1-5f781ab8bf53" alt="Logo" class="img-fluid imgSombra imagenpv"/> 
+
+                            <br></br>
+                            <br></br>
+
+                            <p class="subTituloq">
+                
+                            leidyvanesagonzalezacevedo@gmail.com
+                              <br></br>
+                              https://github.com/Vanesa0411
+
+
+                            </p>
 
             </div>
 
-            <div class="col-12 col-md-5 telesh ">
+            <div class="col-12 col-md-2 telesh ">
+            </div>
 
-             <h2 class="titulo">Makitu Comic Store</h2>
+            <div class="col-12 col-md-5 telesh  ">
 
-                <p class="subTitulo">
+             <h2 class="tituloq text-center">Melissa Puerta Suaza</h2>
+
+                <p class="subTituloq text-center">
                 
-                Melissa Puerta Suaza
+                Full Stack Developer
 
                 </p>
 
@@ -127,7 +143,19 @@ export function QuienesSomos() {
 
                         </p>
 
-                            <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/logoSombra.png?alt=media&token=8a0d9fc1-6310-49ab-8650-f3168196696b" alt="Logo" class="img-fluid imgSombra"/> 
+                            <img src="https://firebasestorage.googleapis.com/v0/b/comicstore-32b08.appspot.com/o/WhatsApp%20Image%202023-04-25%20at%202.55.40%20PM.jpeg?alt=media&token=8125931a-4a3e-4cf2-b1bf-053745f37b73" alt="Logo" class="img-fluid imgSombra imagenp"/> 
+
+                              <br></br>
+                              <br></br>
+
+                            <p class="subTituloq ">
+                
+                              melipusu15098@gmail.com
+                              <br></br>
+                              https://github.com/melips
+
+
+                            </p>
 
             </div>
 
@@ -139,6 +167,8 @@ export function QuienesSomos() {
     </div>
 
 </section>
+
+<Footer></Footer>
 
     </>
   );
