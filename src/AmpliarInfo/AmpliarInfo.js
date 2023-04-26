@@ -18,7 +18,7 @@ export function AmpliarInfo(){
                         />
                     </div>
 
-                    <div class = "col-12 col-md-5 border p-3 rounded shadow">
+                    <div class = "col-12 col-md-5 border p-3 rounded shadow ">
                         <h2 class = "fw-bold">{producto.nombre}</h2>
                         <i class="bi bi-star-fill text-warning fs-1 ms-1"></i>
                         <i class="bi bi-star-fill text-warning fs-1 ms-1"></i>

@@ -26,9 +26,9 @@ export function Administrador() {
         let datosProducto={
 
             "nombre": nombre,
-            "cantidad": cantidad,
             "foto":foto,
             "precioUnitario":precio,
+            "descripcion":descripcion
 
         }
 

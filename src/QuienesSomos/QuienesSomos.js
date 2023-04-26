@@ -94,7 +94,7 @@ export function QuienesSomos() {
 
             <div class="col-12 col-md-5 telesh ">
 
-             <h2 class="tituloq text-center">Leidy Vanesa Gonzales</h2>
+             <h2 class="tituloq text-center">Leidy Vanesa Gonzalez</h2>
 
                 <p class="subTituloq text-center">
                 

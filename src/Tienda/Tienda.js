@@ -72,7 +72,7 @@ export function Tienda(){
                                             onMouseLeave={cambiarfoto2}
                                         />
                                         <h4 class="text-center fw-bold">{producto.nombre}</h4>
-                                        <h5 class = "text-success">${producto.precio} COP</h5>
+                                        <h5 class = "text-success">${producto.precioUnitario} COP</h5>
                                         <p class = "text-justify">{producto.descripcion}</p>
                                     </div>
                                 </div>
